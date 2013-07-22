@@ -45,7 +45,7 @@ Updates data in an existing table
     <update catalogName="cat"
             schemaName="public"
             tableName="person">
-        <whereClause>A String</whereClause>
+        <where>A String</where>
         <column name="address" type="varchar(255)"/>
     </update>
 </changeSet>
@@ -65,7 +65,7 @@ changeSet:
           type: varchar(255)
       schemaName: public
       tableName: person
-      whereClause: A String
+      where: A String
 
 {% endhighlight %}
 </div>
@@ -89,7 +89,7 @@ changeSet:
           ,
           "schemaName": "public",
           "tableName": "person",
-          "whereClause": "A String"
+          "where": "A String"
         }
       }]
     
